@@ -1,0 +1,39 @@
+.messageBubble {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    max-width: 70%;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.sent {
+    background-color: #0084ff;
+    color: white;
+    align-self: flex-end;
+}
+
+.received {
+    background-color: #e5e5ea;
+    color: black;
+    align-self: flex-start;
+}
+
+.messageBubble::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 10px;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.sent::after {
+    border-color: transparent transparent #0084ff transparent;
+}
+
+.received::after {
+    border-color: transparent transparent #e5e5ea transparent;
+}

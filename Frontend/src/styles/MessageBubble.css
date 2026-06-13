@@ -1,0 +1,20 @@
+.message-bubble {
+  padding: 12px 18px;
+  border-radius: 20px;
+  max-width: 70%;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 4px;
+  word-break: break-word;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.message-bubble.user {
+  background: #6e8efb;
+  color: #fff;
+  align-self: flex-end;
+}
+.message-bubble.bot {
+  background: #e3e3e3;
+  color: #333;
+  align-self: flex-start;
+}

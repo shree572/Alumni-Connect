@@ -1,0 +1,27 @@
+.input-box {
+  display: flex;
+  width: 400px;
+  gap: 8px;
+}
+.input-box input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background: #f3f3f3;
+}
+.input-box button {
+  background: #a777e3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.input-box button:hover {
+  background: #6e8efb;
+}
